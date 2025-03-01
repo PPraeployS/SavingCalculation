@@ -1,0 +1,28 @@
+﻿<Window x:Class="SavingCalculationApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SavingCalculationApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/88254_88253_1698665189.jpg"/>
+        </Grid.Background>
+        <TextBox x:Name="Textbox_Income" HorizontalAlignment="Left" Margin="460,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="204" Height="30"/>
+        <TextBox x:Name="Textbox_Expense" HorizontalAlignment="Left" Margin="460,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="204" Height="30"/>
+        <Button x:Name="Button_Calculate" Content="Calculate" HorizontalAlignment="Left" Margin="525,274,0,0" VerticalAlignment="Top" Height="28" Width="74" FontSize="14" FontWeight="Bold" Click="Button_Calculate_Click"/>
+        <Label Content="Income :" HorizontalAlignment="Left" Margin="357,139,0,0" VerticalAlignment="Top" Height="31" Width="98" Foreground="#FFEFEAEA" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Expense :" HorizontalAlignment="Left" Margin="357,175,0,0" VerticalAlignment="Top" Height="31" Width="98" Foreground="#FFEFEAEA" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="Textbox_Price" HorizontalAlignment="Left" Margin="460,214,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="204" Height="30"/>
+        <Label Content="Item price :" HorizontalAlignment="Center" Margin="0,214,0,0" VerticalAlignment="Top" Height="31" Width="115" Foreground="#FFEFEAEA" FontWeight="Bold" FontSize="14"/>
+        <Label Content="baht/day" HorizontalAlignment="Left" Margin="669,139,0,0" VerticalAlignment="Top" Height="31" Width="98" Foreground="#FFEFEAEA" FontWeight="Bold" FontSize="14"/>
+        <Label Content="baht/day" HorizontalAlignment="Left" Margin="668,172,0,0" VerticalAlignment="Top" Height="31" Width="98" Foreground="#FFEFEAEA" FontWeight="Bold" FontSize="14"/>
+        <Label Content="baht" HorizontalAlignment="Left" Margin="669,213,0,0" VerticalAlignment="Top" Height="31" Width="98" Foreground="#FFEFEAEA" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="Textbox_NumberOfThedaysSaving" HorizontalAlignment="Left" Margin="459,320,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="204" Height="30" IsEnabled="False"/>
+        <Label  Content="Number of days to saving :" HorizontalAlignment="Left" Margin="250,320,0,0" VerticalAlignment="Top" Height="31" Width="207" Foreground="#FFEFEAEA" FontWeight="Bold" FontSize="14"/>
+        <Label Content="days" HorizontalAlignment="Left" Margin="668,319,0,0" VerticalAlignment="Top" Height="31" Width="98" Foreground="#FFEFEAEA" FontWeight="Bold" FontSize="14"/>
+
+    </Grid>
+</Window>

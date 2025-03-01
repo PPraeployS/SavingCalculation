@@ -52,7 +52,10 @@ namespace SavingCalculationApp
             Textbox_NumberOfThedaysSaving.Text = numberOfDays.ToString();
         }
 
-
+        /// <summary>
+        /// To calculate number of days for saving money
+        /// </summary>
+        /// <returns> return number of days</returns>
         private int CalculateNumberOfDaysForSaving()
         {
             double balance = 0;
